@@ -1,2 +1,95 @@
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+* {
+    box-sizing: border-box;
+}
+/* main {
+    border-radius: 50px;
+} */
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    width: 325px;
+    margin: 75px auto;
+    font-size: 15px;
+    
+}
+.class-h1{
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+.sedans, .suvs, .luxury{
+    padding: 50px;
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1.6em;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0px 0px;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 0px 10px 10px;
+}
+button{
+    width: 150px;
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 10px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 25px;
+}
+.btn{
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 10px;
+    
+}
+.sedans .btn{
+    color: hsl(31, 77%, 52%);
+}
+.suvs .btn{
+    color: hsl(184, 100%, 22%);
+}
+.luxury .btn{
+    color: hsl(179, 100%, 13%);
+}
+button:hover{
+    /* cursor: pointer; */
+    background-color: inherit;
+    border: 2px solid hsl(0, 0%, 95%);
+    /* color: black; */
+    /* border: 3px solid hsl(0, 0%, 95%);
+    background-color: inherit; */
+}
+.btn:hover{
+    color: hsl(0, 0%, 95%);
+}
+
+@media screen and (min-width: 1000px) {
+    body{
+        width: 975px;
+    }
+    main{
+        display: flex;
+    }
+    .luxury, .sedans, .suvs{
+        padding-right: 70px;
+        /* width: 375px; */
+        /* display: inline-flex; */
+        /* margin-bottom:100px; */
+    }
+    /* button{
+        -top: 100px;
+    } */
+    .btn{
+        margin-top: 70px;
+    }
+}

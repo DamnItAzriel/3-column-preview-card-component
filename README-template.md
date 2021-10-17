@@ -45,7 +45,25 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
-
+- HTML
+  - link style.css
+  - link google font links
+  - main
+    - Used this first time for frontend challenge (Instead of main div)
+    - Added 3 divs for 3 columns
+      - each div holds
+        - svg car icon
+        - h1
+        - description para
+        - button for learn more
+  - footer
+    - attribution class for links
+- CSS
+  - box-sizing: border-box
+  - font family
+  - width:375px
+  - margin set 0px auto
+  - 
 ### Built with
 
 - Semantic HTML5 markup
