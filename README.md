@@ -33,7 +33,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo Link](https://github.com/DamnItAzriel/3-column-preview-card-component)
-- Live Site URL: [Add live site URL here](https://3-column-preview-card-component-chi-two.vercel.app/)
+- Live Site URL: [3 Column Preview Card Component](https://3-column-preview-card-component-chi-two.vercel.app/)
 
 ## My process
 - HTML
